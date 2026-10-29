@@ -1,0 +1,10 @@
+[project]
+name = "arquibancada-ia"
+version = "1.0.0"
+description = "Chatbot educacional sobre Copas do Mundo"
+requires-python = ">=3.11"
+dependencies = ["flask>=3.1,<4", "flask-cors>=5,<7", "python-dotenv>=1,<2", "groq>=0.30,<2", "gunicorn>=23,<26"]
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
