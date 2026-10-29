@@ -38,3 +38,6 @@ Após o deploy, revise `FRONTEND_ORIGINS` no Render e faça um teste de ponta a 
 
 ## Limitações e segurança
 A verificação de escopo usa regras conservadoras de palavras-chave e o prompt da IA como segunda camada. **Não é uma garantia absoluta**: perguntas mistas e tentativas de prompt injection que contenham termos de Copa podem passar pela checagem lexical. Para uso com requisitos rigorosos, adicione um classificador independente com política fail-closed, filtre perguntas mistas e valide também a resposta gerada. Não armazene a chave no frontend. Não envie dados pessoais à API. Para produção, adicione rate limiting, monitoramento e testes adversariais. O Render gratuito pode hibernar após inatividade.
+
+## Alterei aqui
+Nesse ponto eu alterei de forma remota.
